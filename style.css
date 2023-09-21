@@ -1,0 +1,200 @@
+/* Header styles */
+header {
+    background-color: blue;
+    color: black;
+    padding: 10px 0; /* Padding at the top and bottom of the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Logo styles */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px; /* Adjust the logo width as needed */
+    height: 80px; /* Adjust the logo height as needed */
+    margin-right: 50px; /* Spacing between logo and text */
+    margin-left: 20px;
+}
+
+.logo h1 {
+    font-size: 30px; /* Adjust the font size of the logo text */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding:0px;
+    margin:0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 87px; /* Spacing between navigation links */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white; /* Link text color */
+    font-weight: bold;
+    font-size: 20px; /* Adjust the font size of navigation links */
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+/* Search bar styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    background-color: #ff6600; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-left: 10px; /* Spacing between input and button */
+    margin-right: 10PX;
+    cursor: pointer;
+    margin-top: -1.5px;
+}
+
+/* Cart icon styles */
+.fa-shopping-cart {
+    color: #ff6600; /* Cart icon color */
+    font-size: 24px; /* Adjust the cart icon size */
+    margin-right: 5px; /* Spacing to the right of the icon */
+}
+/* Description section with background image */
+.description-section {
+
+    background-size: cover;
+    background-position: center;
+   
+    text-align: center;
+    padding: 100px 0;
+}
+
+.description-content {
+   background-color: aqua;
+    padding: 20px;
+    margin-top: -100px;
+    border-radius: 10px;
+}
+
+.description-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.description-content p {
+    font-size: 25px;
+    color: black;
+}
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    background-color: green;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: brown;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    max-width: 150px;
+    margin-left: -150px;
+    margin-top: 55px;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 140px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-links a:hover{
+    color: black;
+}
+
+.footer-contact p {
+    margin-top: 10px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links ul {
+        margin-top: 20px;
+    }
+}
+
+/* Other styling for the rest of your website */
+/* Header, navi
