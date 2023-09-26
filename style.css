@@ -141,6 +141,11 @@ button {
     padding: 20px;
 }
 
+button:hover{
+    color: aqua;
+    background-color: black;
+}
+
 footer {
     background-color: brown;
     color: #fff;
