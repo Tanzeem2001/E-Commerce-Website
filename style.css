@@ -9,21 +9,22 @@ header {
     width: 100%;
 }
 
-/* Logo styles */
+
 .logo {
     display: flex;
     align-items: center;
 }
 
 .logo img {
-    width: 120px; /* Adjust the logo width as needed */
-    height: 80px; /* Adjust the logo height as needed */
-    margin-right: 50px; /* Spacing between logo and text */
+    width: 120px; 
+    height: 80px; 
+    margin-right: 50px; 
     margin-left: 20px;
 }
 
 .logo h1 {
-    font-size: 30px; /* Adjust the font size of the logo text */
+    font-size: 30px;
+    color:darkgoldenrod;
 }
 
 /* Navigation styles */
